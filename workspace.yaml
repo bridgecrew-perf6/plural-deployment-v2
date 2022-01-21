@@ -1,0 +1,17 @@
+apiVersion: plural.sh/v1alpha1
+kind: ProjectManifest
+metadata:
+  name: ctcluster1
+spec:
+  cluster: ctcluster1
+  bucket: ctbucket12122-tf-state
+  project: "276873180747"
+  provider: aws
+  region: us-east-2
+  owner:
+    email: julian@creatorstraining.com
+  network:
+    subdomain: creatorstraining.onplural.sh
+    pluraldns: true
+  bucketPrefix: ctbucket12122
+  context: {}
